@@ -1,14 +1,14 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : hive
+Source Server : hive
 Source Server Version : 50613
-Source Host           : localhost:3306
-Source Database       : dayz_overwatch
+Source Host : localhost:3306
+Source Database : dayz_overwatch
 
-Target Server Type    : MYSQL
+Target Server Type : MYSQL
 Target Server Version : 50613
-File Encoding         : 65001
+File Encoding : 65001
 
 Date: 2013-08-29 12:49:46
 */
@@ -36,14 +36,14 @@ INSERT INTO `deployable` VALUES ('6', 'StashSmall');
 INSERT INTO `deployable` VALUES ('1', 'TentStorage');
 INSERT INTO `deployable` VALUES ('2', 'TrapBear');
 INSERT INTO `deployable` VALUES ('3', 'Wire_cat1');
-INSERT INTO `deployable` VALUES ('8', 'DomeTentStorage')
-INSERT INTO `deployable` VALUES ('9', 'CamoNet_DZ')
-INSERT INTO `deployable` VALUES ('10', 'Trap_Cans')
-INSERT INTO `deployable` VALUES ('11', 'TrapTripwireFlare')
-INSERT INTO `deployable` VALUES ('12', 'TrapBearTrapSmoke')
-INSERT INTO `deployable` VALUES ('13', 'TrapTripwireGrenade')
-INSERT INTO `deployable` VALUES ('14', 'TrapTripwireSmoke')
-INSERT INTO `deployable` VALUES ('16', 'TrapBearTrapFlare')
+INSERT INTO `deployable` VALUES ('8', 'DomeTentStorage');
+INSERT INTO `deployable` VALUES ('9', 'CamoNet_DZ');
+INSERT INTO `deployable` VALUES ('10', 'Trap_Cans');
+INSERT INTO `deployable` VALUES ('11', 'TrapTripwireFlare');
+INSERT INTO `deployable` VALUES ('12', 'TrapBearTrapSmoke');
+INSERT INTO `deployable` VALUES ('13', 'TrapTripwireGrenade');
+INSERT INTO `deployable` VALUES ('14', 'TrapTripwireSmoke');
+INSERT INTO `deployable` VALUES ('16', 'TrapBearTrapFlare');
 
 -- ----------------------------
 -- Table structure for `instance`

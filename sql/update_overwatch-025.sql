@@ -1,6 +1,15 @@
 
 USE `dayz_overwatch`;
 
+INSERT INTO `deployable` VALUES ('8', 'DomeTentStorage');
+INSERT INTO `deployable` VALUES ('9', 'CamoNet_DZ');
+INSERT INTO `deployable` VALUES ('10', 'Trap_Cans');
+INSERT INTO `deployable` VALUES ('11', 'TrapTripwireFlare');
+INSERT INTO `deployable` VALUES ('12', 'TrapBearTrapSmoke');
+INSERT INTO `deployable` VALUES ('13', 'TrapTripwireGrenade');
+INSERT INTO `deployable` VALUES ('14', 'TrapTripwireSmoke');
+INSERT INTO `deployable` VALUES ('16', 'TrapBearTrapFlare');
+
 INSERT INTO `vehicle` VALUES ('332', 'Ka60_GL_DZ', '0.500', '0.700', '0.200', '0.800', '0', '1', 'motor,elektronika,mala vrtule,velka vrtule', '[]');
 INSERT INTO `vehicle` VALUES ('333', 'MH6J2_DZ', '0.500', '0.700', '0.200', '0.800', '0', '1', 'motor,elektronika,mala vrtule,velka vrtule', '[]');
 INSERT INTO `vehicle` VALUES ('334', 'KamazReammo_DZ', '0.500', '0.700', '0.200', '0.600', '0', '1', 'palivo,motor,karoserie,wheel_1_1_steering,wheel_1_2_steering,wheel_2_1_steering,wheel_2_2_steering', '[]');
