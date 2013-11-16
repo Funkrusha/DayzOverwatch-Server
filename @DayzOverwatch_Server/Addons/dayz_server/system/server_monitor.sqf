@@ -39,6 +39,9 @@ diag_log "HIVE: Starting";
 			dayzSetDate = _date1;
 			dayz_storeTimeDate = _date1;
 			publicVariable "dayzSetDate";
+			
+			PVDZE_plr_SetDate = _date1;
+			publicVariable "PVDZE_plr_SetDate";
 		};
 		diag_log ("HIVE: Local Time set to " + str(_date1));
 	};

@@ -22,13 +22,24 @@ if (isServer) then {
 				_outcome = _result select 0;
 				if(_outcome == "PASS") then {
 					_date = _result select 1; 
-					_dateNum = dateToNumber(_date); 
-					_diff = ( _dateNum - dateToNumber (date) )*365*24*60;
-					if ( abs(_diff)>5 ) then {
-						setDate _date;
-						dayzSetDate = _date;
-						publicVariable "dayzSetDate";
-					};
+					_year = _date select 0;
+					_month = _date select 1;
+					_day = _date select 2;
+					_hour = _date select 3;
+					_minute = _date select 4;
+		
+					//Force full moon nights
+					_date = [2013,8,3,_hour,_minute];
+					setDate _date;
+					
+					dayzSetDate = _date;
+					publicVariable "dayzSetDate";
+				
+					PVDZE_plr_SetDate = _date;
+					publicVariable "PVDZE_plr_SetDate";
+
+				
+					diag_log ("HIVE: Local Time set to " + str(_date));
 				};
 			};
 			if ((count needUpdate_objects) > 0 && (diag_tickTime -_lastNeedUpdate>40)) then

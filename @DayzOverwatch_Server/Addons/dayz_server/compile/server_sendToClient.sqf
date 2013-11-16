@@ -44,9 +44,10 @@ switch _variable do {
 	};
 	
 	case "dayzSetDate": {
-		dayzSetDate = dayz_storeTimeDate;
+		//dayzSetDate = dayz_storeTimeDate;
 		_owner publicVariableClient "dayzSetDate";
-		diag_log ("Time and date: " +str (dayz_storeTimeDate));
+		//diag_log ("Time and date: " +str (dayz_storeTimeDate));
+		diag_log ("Time and date (sendToClient): " + str (dayzSetDate));
 	};
 
 	case "Transfuse": {

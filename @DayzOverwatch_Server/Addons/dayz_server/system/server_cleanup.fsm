@@ -323,7 +323,7 @@ class FSM
        "	_minute = _date select 4;" \n
        "" \n
        "	//Force full moon nights" \n
-       "	_date1 = [2012,6,6,14,_minute];" \n
+       "	_date1 = [2013,8,3,_hour,_minute];" \n
        "" \n
        "	setDate _date1;" \n
        "	dayzSetDate = _date1;" \n

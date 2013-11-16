@@ -51,7 +51,8 @@ if (!_parachuteWest) then {
 	};
 };
 
-if (_isNotOk) exitWith { deleteVehicle _object; };
+// don't delete deployed vehicles
+//if (_isNotOk) exitWith { deleteVehicle _object; };
 
 _lastUpdate = _object getVariable ["lastUpdate",diag_tickTime];
 _needUpdate = _object in needUpdate_objects;
